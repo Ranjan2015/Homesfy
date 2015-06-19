@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homesfy", "Homesfy\Homesfy.csproj", "{38AD3524-65F8-49C1-97D6-2F1902F89E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homesfy.Core", "Homesfy.Core\Homesfy.Core.csproj", "{48748068-47B1-43B5-B646-EBB6CEAC2BB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homesfy.Entities", "Homesfy.Entities\Homesfy.Entities.csproj", "{EEF25D70-E638-4471-90DB-65D5EB1FCD6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homesfy.APIs", "Homesfy.APIs\Homesfy.APIs.csproj", "{25D76F61-CB90-4036-AFDE-CF2A1DB46350}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38AD3524-65F8-49C1-97D6-2F1902F89E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38AD3524-65F8-49C1-97D6-2F1902F89E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38AD3524-65F8-49C1-97D6-2F1902F89E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38AD3524-65F8-49C1-97D6-2F1902F89E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48748068-47B1-43B5-B646-EBB6CEAC2BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48748068-47B1-43B5-B646-EBB6CEAC2BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48748068-47B1-43B5-B646-EBB6CEAC2BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48748068-47B1-43B5-B646-EBB6CEAC2BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF25D70-E638-4471-90DB-65D5EB1FCD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF25D70-E638-4471-90DB-65D5EB1FCD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF25D70-E638-4471-90DB-65D5EB1FCD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF25D70-E638-4471-90DB-65D5EB1FCD6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25D76F61-CB90-4036-AFDE-CF2A1DB46350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D76F61-CB90-4036-AFDE-CF2A1DB46350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25D76F61-CB90-4036-AFDE-CF2A1DB46350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25D76F61-CB90-4036-AFDE-CF2A1DB46350}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

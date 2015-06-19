@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="233ac9f2b8e345c892cb0e7faaa55efb" Name="Diagram1">
+        <EntityTypeShape EntityType="admin_homesfyModel.Builder" Width="1.5" PointX="15.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.Builder_EscalationMatrix" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.BuilderProjectConfig" Width="1.5" PointX="20.25" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.BuilderProjectFloorPlan" Width="1.5" PointX="22.5" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.BuilderProject" Width="1.5" PointX="2.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.BuilderProjectSubConfig" Width="1.5" PointX="22.5" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.BuilderProjExternalAmenity" Width="1.5" PointX="23.25" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.BuilderProjGallery" Width="1.5" PointX="20.25" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.BuilderProjInternalAmenity" Width="1.5" PointX="20.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.BuildingGallery" Width="1.5" PointX="14.25" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.BuildingPrefId" Width="1.5" PointX="2.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.BuyerProfile" Width="1.5" PointX="13.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.CrmLeadDetail" Width="1.5" PointX="20.25" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.CrmLeadFeedback" Width="1.5" PointX="22.5" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.GreatPlaceGallery" Width="1.5" PointX="10.5" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.InDividualBasicProfile" Width="1.5" PointX="16.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.LocalityBlock" Width="1.5" PointX="9.75" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.LocalityBlockGallery" Width="1.5" PointX="12" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.LocalityDetail" Width="1.5" PointX="7.5" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.LocalityDetailsCommute" Width="1.5" PointX="12.75" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.LocalityGallery" Width="1.5" PointX="9.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.LocalityGreatPlace" Width="1.5" PointX="12.75" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.LocalityKeyHighLight" Width="1.5" PointX="12.75" PointY="27.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.LocalitySuggestion" Width="1.5" PointX="9.75" PointY="37.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.LocalityTag" Width="1.5" PointX="9.75" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.LocalityTripRequest" Width="1.5" PointX="4.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mBuilderProject" Width="1.5" PointX="18" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mBuilding" Width="1.5" PointX="12" PointY="34.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mCategoryOfExternalAmenity" Width="1.5" PointX="21" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mCity" Width="1.5" PointX="5.25" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mCountry" Width="1.5" PointX="0.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mCrmDepartment" Width="1.5" PointX="9" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mCrmLeadPurpose" Width="1.5" PointX="18" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mCrmLeadSource" Width="1.5" PointX="18" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mInternalAmenity" Width="1.5" PointX="18" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mLocality" Width="1.5" PointX="7.5" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mNeighbourHoodTag" Width="1.5" PointX="18.75" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mPriceRange" Width="1.5" PointX="4.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mPropConfig" Width="1.5" PointX="18" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mPropertyCategory" Width="1.5" PointX="15.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mSociety" Width="1.5" PointX="9.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mSocietyGallery" Width="1.5" PointX="12" PointY="49.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.mState" Width="1.5" PointX="3" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.Project" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.Prop_List" Width="1.5" PointX="2.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.Prop_Review" Width="1.5" PointX="6.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.PropBlog" Width="1.5" PointX="4.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.SecurityQuestionMaster" Width="1.5" PointX="14.25" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.sysdiagram" Width="1.5" PointX="4.75" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.UserCredential" Width="1.5" PointX="11.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.UserRole" Width="1.5" PointX="9" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.PropscoutProfile" Width="1.5" PointX="13.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.PropscoutWorkArea" Width="1.5" PointX="15.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="admin_homesfyModel.UserTagPreference" Width="1.5" PointX="14.75" PointY="17.375" IsExpanded="true" />
+        <AssociationConnector Association="admin_homesfyModel.FK_mBuilderProjects_Builder" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_BuilderProjectConfig_mBuilderProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_BuilderProjectConfig_mPropType" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_BuilderProjectFloorPlan_BuilderProjectConfig" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_BuilderProjectSubConfig_BuilderProjectConfig" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_BuilderProjExternalAmenities_mBuilderProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_BuilderProjExternalAmenities_mCategoryOfExternalAmenities" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_BuilderProjGallery_mBuilderProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_BuilderProjInternalAmenities_mBuilderProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_BuilderProjInternalAmenities_mInternalAmenities" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_BuildingGallery_Buildings" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_BuyerProfile_UserCredential" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_CrmLeadDetails_mCrmLeadPurpose" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_CrmLeadDetails_mCrmLeadSources" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_CrmLeadDetails_mPropConfig" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_CrmLeadFeedback_CrmLeadDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_mLocalityGreatPlaces_mGreatPlaceGallery" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_InDividualBasicProfile_SecurityQuestionMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_InDividualBasicProfile_UserCredential" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_LocalityBlock_LocalityDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_LocalityBlock_mLocality" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_LocalityBlockGallery_LocalityBlock" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_LocalityDetailsCommute_LocalityDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_LocalityKeyHighLights_LocalityDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_mLocalityGreatPlaces_mLocalityDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_mSubLocalityTags_mLocalityDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_LocalityDetailsCommute_mLocality" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_LocalityGallery_mLocality" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_LocalityGreatPlaces_mLocality" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_LocalityKeyHighLights_mLocality" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_LocalitySuggestions_mLocality" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_LocalityTags_mLocality" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_mBuilderProjects_mPropertyCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_Buildings_Locality" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_Buildings_Society" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_mCategoryOfExternalAmenities_mNeighbourHoodTags" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_CityMaster_StateMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_Locality_CityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_StateMaster_CountryMaster1" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_UserCredential_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_PropscoutWorkAreas_mLocality" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_Society_Locality" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_SocietyGallery_Society" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_PropscoutProfile_UserCredential" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_UserCredential_UserRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="admin_homesfyModel.FK_PropscoutWorkAreas_PropscoutProfile" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

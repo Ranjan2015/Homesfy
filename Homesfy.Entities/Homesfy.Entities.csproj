@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EEF25D70-E638-4471-90DB-65D5EB1FCD6E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Homesfy.Entities</RootNamespace>
+    <AssemblyName>Homesfy.Entities</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Builder.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BuilderProject.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BuilderProjectConfig.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BuilderProjectFloorPlan.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BuilderProjectSubConfig.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BuilderProjExternalAmenity.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BuilderProjGallery.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BuilderProjInternalAmenity.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Builder_EscalationMatrix.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BuildingGallery.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BuildingPrefId.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BuyerProfile.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="CrmLeadDetail.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CrmLeadFeedback.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GreatPlaceGallery.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HomesfyModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HomesfyModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HomesfyModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HomesfyModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HomesfyModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="InDividualBasicProfile.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LocalityBlock.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LocalityBlockGallery.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LocalityDetail.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LocalityDetailsCommute.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LocalityGallery.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LocalityGreatPlace.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LocalityKeyHighLight.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LocalitySuggestion.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LocalityTag.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LocalityTripRequest.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mBuilderProject.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mBuilding.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mCategoryOfExternalAmenity.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mCity.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mCountry.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mCrmDepartment.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mCrmLeadPurpose.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mCrmLeadSource.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mInternalAmenity.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mLocality.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mNeighbourHoodTag.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mPriceRange.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mPropConfig.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mPropertyCategory.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mSociety.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mSocietyGallery.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mState.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Project.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PropBlog.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropscoutProfile.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PropscoutWorkArea.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Prop_List.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Prop_Review.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SecurityQuestionMaster.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserCredential.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserRole.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserTagPreference.cs">
+      <DependentUpon>HomesfyModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="HomesfyModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>HomesfyModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="HomesfyModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>HomesfyModel.edmx</DependentUpon>
+      <LastGenOutput>HomesfyModel.Context.cs</LastGenOutput>
+    </None>
+    <None Include="HomesfyModel.edmx.diagram">
+      <DependentUpon>HomesfyModel.edmx</DependentUpon>
+    </None>
+    <None Include="HomesfyModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>HomesfyModel.edmx</DependentUpon>
+      <LastGenOutput>HomesfyModel.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
